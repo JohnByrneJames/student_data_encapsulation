@@ -8,7 +8,6 @@ an object is generally hidden from view outside of the objects definition.
 
 A good example is a class, it encapsulates all the data that its member methods and attributes have.
 
-
 [**devops_student**](devops_student.py) **[Parent/ Base Class]**
 * **Attributes**
     * current_grade `private`
@@ -58,6 +57,6 @@ a technique called name mangling, this changes the name of a variable. This is n
 100% secure though as you can still access the attributes and methods by
 entering the altered name which looks like this:
 
-` object._Class__private_method` 
+`object._Class__private_method` 
 
 `object._Class__private_attribute`
